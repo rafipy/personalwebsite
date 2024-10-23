@@ -7,6 +7,8 @@
     <title>Rafie's Website</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 
+    
+    <!---This is a navbar taken straight from bootstrap website-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand">Welcome</a>
@@ -28,22 +30,24 @@
 
 </head>
 <body>
+    <!---Script Framework import from bootstrap-->
     <script src = "js/bootstrap.bundle.js"></script>
 
+    <!---Flexbox container that has a minimum height of vh100 which is the height of any device visiting.-->
     <div class="container min-vh-100 d-flex justify-content-center align-items-center">
 
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-7 mb-3 p-5 rounded">
+        <div class="row d-flex justify-content-center align-items-center"> <!---Another flex to make sure that they display next to one another-->
+            <div class="col-md-7 mb-3 p-5 rounded"> <!---Becomes a column over md, margin bottom by 3 and padding of 5 with a rounded border-->
                 <div>
                     <h1 class="text-center text-md-start display-2">Hello World!</h1>
                 </div>
                 
-                <p class="text-center text-md-start lead">
+                <p class="text-center text-md-start lead"> <!---In lead style of text, will be center until md before it becomes left align-->
                     I'd like to introduce myself, my name is Rafie! <br> 
                     And I'm currently studying to make websites, games, and other stuff. <br>
                     Why don't you take a look-see? I'm pretty... normal! <br>
                 </p>
-
+                <!---Places buttons in a row-->
                 <div class="row">
                     <button type="button" class="btn btn-outline-danger py-3 mb-3" onclick="location.href='about.html';">About Me!</button>
                     <button type="button" class="btn btn-outline-primary py-3 mb-3" onclick="location.href='socials.html';">Socials</button>
